@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ListStore from './stores/ListStore.jsx';
-import AppDispatcher from './dispatcher/AppDispatcher.jsx';
-import NewItemForm from './actions/NewItemForm.jsx';
+import ListStore from '../stores/ListStore.jsx';
+import AppDispatcher from '../dispatcher/AppDispatcher.jsx';
+import NewItemForm from './NewItemForm.jsx';
 
 let getListState = () => {
     return {
