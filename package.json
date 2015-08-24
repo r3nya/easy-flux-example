@@ -22,16 +22,19 @@
   "homepage": "https://github.com/r3nya/easy-flux-example#readme",
   "dependencies": {
     "events": "^1.0.2",
-    "flux": "^2.1.1",
+    "flux": "^2.0.3",
     "lodash": "^3.10.1",
     "react": "^0.13.3"
   },
   "devDependencies": {
     "babel-core": "^5.8.22",
-    "babel-loader": "^5.3.2",
+    "babel-eslint": "^4.0.10",
     "babelify": "^6.2.0",
     "browserify": "^11.0.1",
+    "eslint-config-airbnb": "0.0.8",
+    "eslint-plugin-react": "^3.2.3",
     "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.2.0",
     "run-sequence": "^1.1.2",

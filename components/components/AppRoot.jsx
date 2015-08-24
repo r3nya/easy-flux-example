@@ -9,7 +9,7 @@ let getListState = () => {
     };
 }
 
-class AppRoot extends Component {
+export default class AppRoot extends Component {
     constructor() {
         super();
         this.state = getListState();
@@ -57,8 +57,3 @@ class AppRoot extends Component {
         )
     }
 }
-
-React.render(
-    <AppRoot />,
-    document.getElementById('app-root')
-);

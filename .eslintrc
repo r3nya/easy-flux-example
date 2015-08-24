@@ -1,0 +1,11 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb/base",
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "rules": {
+        "comma-dangle": [2, "never"],
+        "quotes": [2, "single"]
+    }
+}
